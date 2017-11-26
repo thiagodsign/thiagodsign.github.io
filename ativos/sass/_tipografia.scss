@@ -1,0 +1,6 @@
+$fonte-padrao: 'Maven Pro', 'sans serif';
+
+@mixin fonte-principal {
+  font-family: $fonte-padrao;
+  font-weight: 500;
+}
