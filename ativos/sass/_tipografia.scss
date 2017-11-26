@@ -1,29 +1,29 @@
 @font-face {
-  font-family: "Maven Pro";
-  src: url(../fontes/MavenPro-Black.ttf);
-  font-weight: 900;
+  font-family: "Montserrat";
+  src: url(../fontes/Montserrat-Light.ttf);
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Maven Pro";
-  src: url(../fontes/MavenPro-Bold.ttf);
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Maven Pro";
-  src: url(../fontes/MavenPro-Medium.ttf);
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Maven Pro";
-  src: url(../fontes/MavenPro-Regular.ttf);
+  font-family: "Montserrat";
+  src: url(../fontes/Montserrat-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
 
-$fonte-padrao: "Maven Pro", 'sans serif';
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fontes/Montserrat-Semibold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fontes/Montserrat-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+$fonte-padrao: "Montserrat", 'sans serif';
