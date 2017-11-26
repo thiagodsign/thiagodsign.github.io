@@ -71,6 +71,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center; }
+  header img {
+    width: 16em; }
 
 .texto-site {
   position: absolute;
@@ -87,7 +89,8 @@ header {
     position: relative;
     top: 160px;
     font-weight: 400;
-    margin-bottom: 24px; }
+    margin-bottom: 24px;
+    font-size: 2em; }
   .texto-site_corpo {
     color: white;
     width: 400px;
@@ -95,4 +98,5 @@ header {
     top: 160px;
     font-weight: 400;
     text-align: center;
-    line-height: 24px; }
+    line-height: 24px;
+    font-size: 1em; }
