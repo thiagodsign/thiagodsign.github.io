@@ -1,7 +1,8 @@
+// Definições Site
+@import "cores";
 @import "tipografia";
+@import "mixins";
+@import "site";
 
-div {
-  @include fonte-principal;
-}
-
-
+// Páginas
+@import "index";

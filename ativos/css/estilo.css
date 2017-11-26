@@ -22,6 +22,77 @@
   font-weight: 400;
   font-style: normal; }
 
-div {
+* {
+  margin: 0;
+  padding: 0;
   font-family: "Maven Pro", "sans serif";
-  font-weight: 400; }
+  background: eee; }
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
+pre {
+  font-family: monospace, monospace; }
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted; }
+
+b,
+strong {
+  font-weight: inherit; }
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; }
+
+dfn {
+  font-style: italic; }
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit; }
+
+summary {
+  display: list-item; }
+
+header {
+  background: #1D1D1B;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.texto-site {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .texto-site_titulo {
+    color: white;
+    position: relative;
+    top: 160px;
+    font-weight: 400;
+    margin-bottom: 24px; }
+  .texto-site_corpo {
+    color: white;
+    width: 400px;
+    position: relative;
+    top: 160px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px; }

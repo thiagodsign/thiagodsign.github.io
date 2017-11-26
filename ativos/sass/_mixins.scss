@@ -1,0 +1,10 @@
+@mixin fonte-principal {
+  font-family: $fonte-padrao;
+  font-weight: 400;
+}
+
+@mixin flex-centro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

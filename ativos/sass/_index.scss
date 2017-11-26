@@ -1,0 +1,36 @@
+header {
+  background: $cor-primaria;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-site {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  @include flex-centro;
+  flex-direction: column;
+
+  &_titulo {
+    color: white;
+    position: relative;
+    top: 160px;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+  
+  &_corpo {
+    color: white;
+    width: 400px;
+    position: relative;
+    top: 160px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+  }
+}
