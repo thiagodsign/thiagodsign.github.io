@@ -52,8 +52,9 @@ summary {
 
 .box-principal {
   background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
-  width: 100%;
-  height: 100vh;
+  width: calc(100% - 4em);
+  height: calc(100vh - 4em);
+  margin: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,12 +63,12 @@ summary {
 
 .titulo-principal{
   color: white;
-  padding: 16px;
+  padding: 3em;
   font-weight: 300;
   text-align: center;
 }
 
 .titulo {
   color: rgb(0, 111, 230);
-  padding: 24px;
+  padding: 1em;
 }
