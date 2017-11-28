@@ -1,0 +1,30 @@
+.grid {
+  background: red;
+  display: grid;
+  grid-gap: 1em;
+  grid-column: 1fr 1fr 1fr
+}
+
+.elemento-1 {
+  background: blue;
+}
+
+.elemento-2 {
+  background: green;
+}
+
+.elemento-3 {
+  background: silver;
+}
+
+.elemento-4 {
+  background: yellow;
+}
+
+.elemento-5 {
+  background: pink;
+}
+
+.elemento-6 {
+  background: grey;
+}

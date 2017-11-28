@@ -65,17 +65,21 @@ summary {
   display: list-item; }
 
 .box-principal {
-  background: #1f1f85;
+  background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
   width: 100%;
   height: 100vh;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center; }
 
-body {
-  width: 100%;
-  height: 100vh;
-  background: #ebebeb; }
+.titulo-principal {
+  color: white;
+  padding: 80px;
+  font-weight: 300;
+  text-align: center; }
+  .titulo-principal .destaque-titulo {
+    font-weight: 600; }
 
 .menu-hamburger_fundo {
   width: 50px;
@@ -121,3 +125,27 @@ body {
     transform: rotate(45deg);
     position: relative;
     top: -4px; }
+
+.grid {
+  background: red;
+  display: grid;
+  grid-gap: 1em;
+  grid-column: 1fr 1fr 1fr; }
+
+.elemento-1 {
+  background: blue; }
+
+.elemento-2 {
+  background: green; }
+
+.elemento-3 {
+  background: silver; }
+
+.elemento-4 {
+  background: yellow; }
+
+.elemento-5 {
+  background: pink; }
+
+.elemento-6 {
+  background: grey; }
