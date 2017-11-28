@@ -64,39 +64,51 @@ dfn {
 summary {
   display: list-item; }
 
-header {
-  background: #1D1D1B;
+body {
   width: 100%;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  header img {
-    width: 16em; }
+  background: #ebebeb; }
 
-.texto-site {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
+.menu-hamburger_fundo {
+  width: 50px;
+  height: 50px;
+  background: #258bff;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column; }
-  .texto-site_titulo {
-    color: white;
+
+.linha-1 {
+  width: 50%;
+  height: 4px;
+  border-radius: 5px;
+  background: white;
+  position: relative;
+  bottom: 4px;
+  transition: all 0.5s ease; }
+  .linha-1_fechar {
+    transform: rotate(135deg);
     position: relative;
-    top: 160px;
-    font-weight: 400;
-    margin-bottom: 24px;
-    font-size: 36px; }
-  .texto-site_corpo {
-    color: white;
-    width: 400px;
+    top: 4px; }
+
+.linha-2 {
+  width: 50%;
+  height: 4px;
+  border-radius: 5px;
+  background: white;
+  transition: all 0.3s ease; }
+  .linha-2_fechar {
+    width: 0; }
+
+.linha-3 {
+  width: 50%;
+  height: 4px;
+  border-radius: 5px;
+  background: white;
+  position: relative;
+  top: 4px;
+  transition: all 0.3s ease; }
+  .linha-3_fechar {
+    transform: rotate(45deg);
     position: relative;
-    top: 160px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 32px;
-    font-size: 18px; }
+    top: -4px; }
