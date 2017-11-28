@@ -11,7 +11,7 @@
   font-style: normal; }
 
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat-Semibold";
   src: url(../fontes/Montserrat-Semibold.ttf);
   font-weight: 600;
   font-style: normal; }
@@ -79,7 +79,7 @@ summary {
   font-weight: 300;
   text-align: center; }
   .titulo-principal .destaque-titulo {
-    font-weight: 600; }
+    font-family: 'Montserrat-Semibold'; }
 
 .menu-hamburger_fundo {
   width: 50px;
