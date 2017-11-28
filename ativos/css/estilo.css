@@ -11,15 +11,9 @@
   font-style: normal; }
 
 @font-face {
-  font-family: "Montserrat-Semibold";
+  font-family: "Montserrat";
   src: url(../fontes/Montserrat-Semibold.ttf);
   font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Montserrat";
-  src: url(../fontes/Montserrat-ExtraBold.ttf);
-  font-weight: 800;
   font-style: normal; }
 
 * {
@@ -75,11 +69,13 @@ summary {
 
 .titulo-principal {
   color: white;
-  padding: 80px;
+  padding: 5px;
   font-weight: 300;
   text-align: center; }
-  .titulo-principal .destaque-titulo {
-    font-family: 'Montserrat-Semibold'; }
+
+.titulo {
+  color: #006fe6;
+  padding: 24px; }
 
 .menu-hamburger_fundo {
   width: 50px;
