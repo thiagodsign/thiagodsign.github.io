@@ -49,3 +49,12 @@ dfn {
 summary {
   display: list-item;
 }
+
+.box-principal {
+  background: rgb(31, 31, 133);
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}

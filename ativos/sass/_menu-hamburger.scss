@@ -10,6 +10,7 @@ body {
   background: rgb(37, 139, 255);
   @include flex-centro;
   flex-direction: column;
+  border-radius: 50%;
 }
 
 .linha-1 {
