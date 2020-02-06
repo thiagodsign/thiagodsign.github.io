@@ -1,15 +1,20 @@
 {
-  "files": {
-    "main.css": "/static/css/main.07a718d4.chunk.css",
-    "main.js": "/static/js/main.e11433c1.chunk.js",
-    "main.js.map": "/static/js/main.e11433c1.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.d29b3332.chunk.js": "/static/js/2.d29b3332.chunk.js",
-    "static/js/2.d29b3332.chunk.js.map": "/static/js/2.d29b3332.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8bd2fc0ea481194820cbd1f6503cf140.js": "/precache-manifest.8bd2fc0ea481194820cbd1f6503cf140.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.07a718d4.chunk.css.map": "/static/css/main.07a718d4.chunk.css.map"
-  }
+  "main.css": "/static/css/main.13df8a27.chunk.css",
+  "main.js": "/static/js/main.d3d21dd6.chunk.js",
+  "main.js.map": "/static/js/main.d3d21dd6.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.0319ec43.chunk.js": "/static/js/2.0319ec43.chunk.js",
+  "static/js/2.0319ec43.chunk.js.map": "/static/js/2.0319ec43.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.396e22867c90ffcf309206bb11f18b4a.js": "/precache-manifest.396e22867c90ffcf309206bb11f18b4a.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.13df8a27.chunk.css.map": "/static/css/main.13df8a27.chunk.css.map",
+  "static/media/eddie_the_eagle.jpg": "/static/media/eddie_the_eagle.70ea91e6.jpg",
+  "static/media/emperors_new_groove.jpg": "/static/media/emperors_new_groove.6df89280.jpg",
+  "static/media/law_abiding_citizen.jpg": "/static/media/law_abiding_citizen.47666954.jpg",
+  "static/media/logo-arara.png": "/static/media/logo-arara.a31cb61f.png",
+  "static/media/lucky_number_slevin.jpg": "/static/media/lucky_number_slevin.28dc8da9.jpg",
+  "static/media/stonehearst_asylum.jpg": "/static/media/stonehearst_asylum.8a190e86.jpg",
+  "static/media/way_back.jpg": "/static/media/way_back.b2464f89.jpg"
 }
